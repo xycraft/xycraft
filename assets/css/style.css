@@ -200,7 +200,7 @@ article {
   background: var(--border-gradient-onyx);
   width: 30px;
   height: 30px;
-  border-radius: 8px;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2230,7 +2230,7 @@ textarea.form-input::-webkit-resizer {
 .research-video-preview {
   width: 200px;
   height: 140px;
-  border-radius: 8px;
+  border-radius: 4px;
   overflow: hidden;
   flex-shrink: 0;
   position: relative;
@@ -2240,7 +2240,7 @@ textarea.form-input::-webkit-resizer {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 4px;
   display: block;
 }
 
