@@ -2337,3 +2337,32 @@ rose {
   margin-bottom: 0.5em;
   line-height: 1.5;
 }
+
+
+
+#toggle-all-btn {
+  color: var(--dusty-rose);
+}
+
+#toggle-all-btn:hover {
+  color: var(--dusty-rose);
+
+}
+
+.about-intro-text {
+  color: var(--light-gray);
+  font-size: 0.85rem;
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.about-intro-text p {
+  margin-bottom: 2px;
+}
+
+.highlight-keyword {
+  color: #a3b18a;
+  /* your olive color */
+  font-weight: bold;
+  /* keeps the <b> style */
+}

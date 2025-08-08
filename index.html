@@ -187,7 +187,7 @@
             I am a future technology imaginer, passionate about being part of researchers and engineers who are bringing
             J.A.R.V.I.S. (Just A Rather Very Intelligent System) closer to reality. My PhD training in HCI lets me go
             beyond daydreaming, turning ideas into tangible, functional prototypes by blending creativity, research, and
-            engineering. My work often integrates hardware, electronics, computer vision and machine learning to deliver
+            engineering. My work often integrates computer vision, machine learning, electronics and hardware to deliver
             innovative solutions. I envision software intelligence and physical devices being developed jointly to truly
             support everyday tasks and enrich real-life experiences through enjoyable and meaningful interactions.
 
@@ -205,13 +205,23 @@
           <h2 class="h2 article-title" style="margin-bottom: 1.0rem;">Research</h2>
         </header>
 
-        <p>
-          My research projects have been published in top-tier HCI venues, including: <br>
-          ACM Conference on Human Factors in Computing Systems (CHI)<br>
-          ACM Symposium on User Interface Software and Technology (UIST)<br>
-          The Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)<br>
+        <section class="about-intro-text">
 
-        </p>
+          <p>My research has been published in top-tier HCI venues, including:</p>
+
+          <p>ACM Conference on Human Factors in Computing Systems (CHI)</p>
+
+          <p>ACM Symposium on User Interface Software and Technology (UIST)</p>
+
+          <p>ACM Interactive Mobile Wearable and Ubiquitous Technologies (IMWUT)</p>
+
+          <p id="toggle-all-btn" class="text-bold" style="cursor: pointer;">
+            Click here to expand technical summaries for all research projects
+          </p>
+
+        </section>
+
+
 
         <section class="research-list">
 
@@ -256,10 +266,18 @@
 
               <div class="extra-info">
                 <ul>
-                  <li>- Designed information encoding and decoding schemes for camera-LED communication</li>
-                  <li>- Designed and implemented a real-time image processing pipeline in C++ (OpenCV), with
-                    spatiotemporal feature engineering and graph-based LED tracking </li>
-                  <li>- Engineered custom hardware modules across ten AR use cases</li>
+                  <li>- Designed information encoding and decoding schemes for
+                    <b class="highlight-keyword">camera-LED communication</b>
+                  </li>
+                  <li>- Designed and implemented a
+                    <b class="highlight-keyword">real-time</b> image processing pipeline in
+                    <b class="highlight-keyword">C++ (OpenCV)</b>, with
+                    <b class="highlight-keyword">spatiotemporal</b> feature engineering and
+                    <b class="highlight-keyword">graph-based LED tracking</b>
+                  </li>
+                  <li>- Engineered custom
+                    <b class="highlight-keyword">hardware</b> modules across ten AR use cases
+                  </li>
                 </ul>
               </div>
 
@@ -283,6 +301,7 @@
               <div class="research-tags">
                 <span class="tag">wearable sensing</span>
                 <span class="tag">energy harvesting</span>
+                <span class="tag">haptics</span>
               </div>
 
               <p class="research-authors"><u>Xiaoying Yang<sup>&dagger;</sup></u>, Vivian Shen<sup>&dagger;</sup>, Chris
@@ -308,9 +327,11 @@
 
               <div class="extra-info">
                 <ul>
-                  <li>- Designed and built custom analog circuits that convert harvested energy into haptics
+                  <li>- Implemented custom analog <b class="highlight-keyword">circuits</b> that convert
+                    harvested energy into haptics
                   </li>
-                  <li>- Developed and validated four real-world applications across diverse body activities</li>
+                  <li>- Developed and validated four <b class="highlight-keyword">real-world applications</b> across
+                    diverse body activities</li>
                 </ul>
               </div>
 
@@ -360,10 +381,12 @@
               <div class="extra-info">
                 <ul>
 
-                  <li>- Engineered hardware prototypes to harvest, modulate, and transmit energy through the
+                  <li>- Engineered <b class="highlight-keyword">hardware</b> prototypes to harvest, modulate, and
+                    transmit energy through the
                     body to wirelessly charge wearables</li>
                   <li>- Investigated equivalent capacitive coupling model for wireless power transfer </li>
-                  <li>- Built activity classification applications using power signals from interaction
+                  <li>- Built <b class="highlight-keyword">activity classification</b> applications using power signals
+                    from interaction
                     events</li>
                 </ul>
               </div>
@@ -415,11 +438,16 @@
 
               <div class="extra-info">
                 <ul>
-                  <li>- Conducted signal simulation and analysis to extract head gesture features in MATLAB</li>
-                  <li>- Characterized individual gesture features through OptiTrack motion capture</li>
-                  <li>- Developed a real-time mmWave+IMU signal acquisition and processing pipeline in Python</li>
-                  <li>- Trained a spatiotemporal, multimodal deep learning model to recognize head gestures</li>
-                  <li>- Built an application with Wear OS for smartwatch-laptop data communication</li>
+                  <li>- Conducted signal simulation and analysis to extract head gesture features in <b
+                      class="highlight-keyword">MATLAB</b></li>
+                  <li>- Characterized individual gesture features through OptiTrack <b class="highlight-keyword">motion
+                      capture</b></li>
+                  <li>- Developed a <b class="highlight-keyword">real-time</b> mmWave+IMU signal acquisition and
+                    processing pipeline in Python</li>
+                  <li>- Trained a spatiotemporal, multimodal <b class="highlight-keyword">deep learning model</b> to
+                    recognize head gestures</li>
+                  <li>- Built an application with <b class="highlight-keyword">Wear OS</b> for smartwatch-laptop data
+                    communication</li>
                 </ul>
               </div>
             </div>
@@ -473,7 +501,8 @@
                   <li>- Designed reflectors using optimization techniques to uniquely respond to
                     interactions</li>
 
-                  <li>- Developed a real-time signal processing pipeline in Python for object and activity
+                  <li>- Developed a <b class="highlight-keyword">real-time</b> signal processing pipeline in Python for
+                    object and activity
                     recognition
                   </li>
                 </ul>
@@ -520,7 +549,8 @@
 
               <div class="extra-info">
                 <ul>
-                  <li>- Designed a custom energy management circuit that integrates energy harvesting, sensing, and
+                  <li>- Designed a custom energy management <b class="highlight-keyword">circuit</b> that integrates
+                    energy harvesting, sensing, and
                     actuation using the nRF52</li>
                   <li>- Characterized power signal profiles from user interactions for activity sensing in Python</li>
                 </ul>
@@ -554,12 +584,30 @@
 
               <div class="research-links">
 
+                <a href="javascript:void(0);" class="research-link expand-btn" onclick="toggleExtraInfo(this)">
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                  <span class="button-label">Technical Summary</span>
+                </a>
+
                 <a href="https://dl.acm.org/doi/10.1145/3411763.3451599" class="research-link" target="_blank">
                   <ion-icon name="document-outline"></ion-icon> Paper
                 </a>
                 <a href="https://youtu.be/_-9qkTDiPBQ?si=03DidjllB8cZfaEH" class="research-link" target="_blank">
                   <ion-icon name="play-circle-outline"></ion-icon> Video
                 </a>
+              </div>
+
+              <div class="extra-info">
+                <ul>
+                  <li>- Investigated <b class="highlight-keyword">radar signal</b> transmission and reflection
+                    properties</li>
+
+                  <li>- Designed reflector mechanisms with <b class="highlight-keyword">Fusion 360</b> for interactive
+                    sensing and <b class="highlight-keyword">real-time</b> signal
+                    processing
+                    pipelines in Python</li>
+                  </li>
+                </ul>
               </div>
 
             </div>
@@ -580,7 +628,7 @@
         </style>
 
         <header>
-          <h3 class="h3 article-title">Other Research</h3>
+          <h3 class="h3 article-title">Other Publications</h3>
         </header>
 
         <section class="research-list">
@@ -607,6 +655,13 @@
                 Kim </p>
 
               <div class="research-links">
+
+
+                <a href="javascript:void(0);" class="research-link expand-btn" onclick="toggleExtraInfo(this)">
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                  <span class="button-label">Technical Summary</span>
+                </a>
+
                 <a href="https://dl.acm.org/doi/full/10.1145/3706598.3714124" class="research-link" target="_blank">
                   <ion-icon name="document-outline"></ion-icon> Paper
                 </a>
@@ -614,6 +669,16 @@
                   <ion-icon name="play-circle-outline"></ion-icon> Video
                 </a>
               </div>
+
+              <div class="extra-info">
+                <ul>
+
+                  <li>- Developed information encoding and decoding methods using cameras, light and reflectors</li>
+
+                </ul>
+              </div>
+
+
 
             </div>
 
@@ -643,6 +708,13 @@
                 Yang Zhang</p>
 
               <div class="research-links">
+
+
+                <a href="javascript:void(0);" class="research-link expand-btn" onclick="toggleExtraInfo(this)">
+                  <ion-icon name="chevron-down-outline"></ion-icon>
+                  <span class="button-label">Technical Summary</span>
+                </a>
+
                 <a href="https://dl.acm.org/doi/10.1145/3526113.3545622" class="research-link" target="_blank">
                   <ion-icon name="document-outline"></ion-icon> Paper
                 </a>
@@ -650,6 +722,19 @@
                   <ion-icon name="play-circle-outline"></ion-icon> Video
                 </a>
               </div>
+
+
+
+              <div class="extra-info">
+                <ul>
+
+                  <li>- Implemented image processing algorithms for input sensing using Python (OpenCV)</li>
+                  <li>- Built prototypes with cameras, lasers and 3D-printed models</li>
+
+                </ul>
+              </div>
+
+
             </div>
 
           </div>
@@ -706,11 +791,15 @@
 
               <div class="extra-info">
                 <ul>
-                  <li>- Investigated signal denoising and synthesis through target and channel feature disentanglement
+                  <li>- Implemented signal denoising and synthesis through target and channel feature disentanglement
                   </li>
-                  <li>- Implemented data collection and signal processing pipelines in C#</li>
-                  <li>- Designed and trained machine learning models for sensing applications using PyTorch</li>
-                  <li>- Deployed pre-trained models for real-time inference using ONNX</li>
+                  <li>- Implemented data collection and signal processing pipelines in <b
+                      class="highlight-keyword">C#</b></li>
+                  <li>- Designed and trained machine learning models for sensing applications using <b
+                      class="highlight-keyword">PyTorch</b></li>
+                  <li>- Deployed pre-trained models for <b class="highlight-keyword">real-time inference</b> using <b
+                      class="highlight-keyword">ONNX</b>
+                  </li>
                 </ul>
               </div>
 
@@ -748,9 +837,11 @@
 
               <div class="extra-info">
                 <ul>
-                  <li>- Built and tested model predictive control and sliding mode control for trajectory tracking using
-                    Python and CARLA </li>
-                  <li>- Integrated control algorithms into autonomous car codebase running on Linux</li>
+                  <li>- Implemented model predictive control and sliding mode control for trajectory tracking using
+                    <b class="highlight-keyword">Python, CARLA</b>
+                  </li>
+                  <li>- Integrated control algorithms into autonomous car codebase running on <b
+                      class="highlight-keyword">Linux</b></li>
                 </ul>
               </div>
 
@@ -901,6 +992,31 @@
         button.querySelector('.button-label').textContent = "Hide Summary";
       }
     }
+  </script>
+
+
+  <script>
+    const toggleAllBtn = document.getElementById('toggle-all-btn');
+    let allExpanded = false;
+
+    toggleAllBtn.addEventListener('click', () => {
+      const allInfoBoxes = document.querySelectorAll('.extra-info');
+      const allButtons = document.querySelectorAll('.research-links .button-label');
+
+      allExpanded = !allExpanded;
+
+      allInfoBoxes.forEach(infoBox => {
+        infoBox.classList.toggle('open', allExpanded);
+      });
+
+      allButtons.forEach(label => {
+        label.textContent = allExpanded ? "Hide Summary" : "Technical Summary";
+      });
+
+      toggleAllBtn.textContent = allExpanded
+        ? "Click here to collapse technical summaries for all research projects"
+        : "Click here to expand technical summaries for all research projects";
+    });
   </script>
 
 </body>
